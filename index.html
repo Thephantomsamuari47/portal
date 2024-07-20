@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Sachin Kandhai</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_Head1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Student Online Registration - Login</title>
+    <link href="./Student Online Registration - Login_files/CSS.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        /* Existing CSS */
+    </style>
+    <script type="text/javascript">
+        function validate() {
+            var centreNo = document.getElementById('ctl00_ContentPlaceHolder1_txtCentre').value;
+            var candNo = document.getElementById('ctl00_ContentPlaceHolder1_txtCandno').value;
+            var lName = document.getElementById('ctl00_ContentPlaceHolder1_txtLName').value;
+            var dob = document.getElementById('ctl00_ContentPlaceHolder1_txtDOB').value;
+            var period = document.getElementById('ctl00_ContentPlaceHolder1_ddl_period').value;
+
+            // Correct credentials
+            var correctCentreNo = "160024";
+            var correctCandNo = "1600240175";
+            var correctLName = "Kandhai";
+            var correctDob = "06/05/2005";
+            var correctPeriod = "171";
+
+            if (centreNo === correctCentreNo && candNo === correctCandNo && lName === correctLName && dob === correctDob && period === correctPeriod) {
+                window.location.href = "http://127.0.0.1:5502/saved_resource(1).html"; // Correct path
+                return false; // Prevent form submission
+            } else {
+                alert("Invalid login credentials!");
+                return false; // Prevent form submission
+            }
+        }
+    </script>
+</head>
+<body>
+    <form name="aspnetForm" method="post" action="#" id="aspnetForm">
+        <div>
+            <!-- Hidden fields and existing content -->
+        </div>
+        <table cellpadding="0" cellspacing="0" width="795" border="0" align="center">
+            <tbody>
+                <tr style="height:180px">
+                    <td style="background-image:url(images/Masthead.jpg); background-position: center center; background-repeat: no-repeat;" align="center">&nbsp;</td>
+                </tr>
+                <tr style="height:322px">
+                    <td valign="top" style=" background-color: #b3b3ff; width: 792px; height: 322px;">
+                        <center>
+                            <table cellpadding="0" cellspacing="0" class="FrmBrdr" style="position: static" width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="FrmHdr" style="width: 793px">Login</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="FrmBdyBg" align="center" style="width: 793px">
+                                            <div class="seperation">&nbsp;</div>
+                                            <br>
+                                            <br>
+                                            <table style="position: static">
+                                                <tbody>
+                                                    <tr>
+                                                        <td style="width: 29px; height: 22px"></td>
+                                                        <td style="width: 130px; height: 22px; text-align: left">
+                                                            <strong><span style="font-size: 12px">Enter Centre No.</span></strong>
+                                                        </td>
+                                                        <td style="width: 150px; height: 22px">
+                                                            <input name="ctl00$ContentPlaceHolder1$txtCentre" type="text" maxlength="15" id="ctl00_ContentPlaceHolder1_txtCentre" tabindex="1" class="FrmText" autocomplete="off" style="position: static">
+                                                        </td>
+                                                        <td style="width: 128px; height: 22px"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="width: 29px; height: 22px"></td>
+                                                        <td style="width: 130px; height: 22px; text-align: left">
+                                                            <span id="ctl00_ContentPlaceHolder1_Label1" style="display:inline-block;font-family:Tahoma;font-size:12px;font-weight:bold;width:124px;">Enter Candidate No. (10 digits)</span>
+                                                        </td>
+                                                        <td style="width: 150px; height: 22px">
+                                                            <input name="ctl00$ContentPlaceHolder1$txtCandno" type="text" maxlength="15" id="ctl00_ContentPlaceHolder1_txtCandno" tabindex="2" class="FrmText" autocomplete="off" style="position: static">
+                                                        </td>
+                                                        <td style="width: 128px; height: 22px"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="width: 29px; height: 58px;"></td>
+                                                        <td style="width: 130px; height: 58px;" class="LblText">&nbsp;<br>
+                                                            <span id="ctl00_ContentPlaceHolder1_Label2" style="display:inline-block;font-family:Tahoma;font-size:12px;height:10px;width:124px;">Birth Certificate No.</span>
+                                                        </td>
+                                                        <td style="width: 150px; height: 58px;">
+                                                            or<br>
+                                                            <input name="ctl00$ContentPlaceHolder1$txtcertificate" type="text" maxlength="15" id="ctl00_ContentPlaceHolder1_txtcertificate" tabindex="2" class="FrmText" autocomplete="off" style="position: static">
+                                                        </td>
+                                                        <td style="width: 128px; height: 58px;">
+                                                            <span style="font-size: 9pt">Please enter Centre and Candidate No. or Birth Certificate No.</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="width: 29px"></td>
+                                                        <td class="LblText" style="width: 130px"></td>
+                                                        <td style="width: 150px"></td>
+                                                        <td style="width: 128px"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="width: 29px"></td>
+                                                        <td style="width: 130px" class="LblText">Enter Last Name:</td>
+                                                        <td style="width: 150px">
+                                                            <input name="ctl00$ContentPlaceHolder1$txtLName" type="text" maxlength="50" id="ctl00_ContentPlaceHolder1_txtLName" tabindex="3" class="FrmText" autocomplete="off" style="position: static">
+                                                        </td>
+                                                        <td style="width: 128px"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="width: 29px"></td>
+                                                        <td class="LblText" style="width: 130px">Enter Date of Birth<br>(MM/DD/YYYY)</td>
+                                                        <td style="width: 150px">
+                                                            <input name="ctl00$ContentPlaceHolder1$txtDOB" type="text" maxlength="15" id="ctl00_ContentPlaceHolder1_txtDOB" tabindex="4" class="FrmText" autocomplete="off" style="position: static">
+                                                        </td>
+                                                        <td style="width: 128px">
+                                                            <span style="font-size: 9pt">&nbsp;Depending on your locale try dd/mm/yyyy</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="width: 29px; height: 20px"></td>
+                                                        <td style="width: 130px; height: 20px" class="LblText">Period</td>
+                                                        <td style="width: 150px; height: 20px">
+                                                            <select name="ctl00$ContentPlaceHolder1$ddl_period" id="ctl00_ContentPlaceHolder1_ddl_period" tabindex="5" class="frmdrop" style="position: static">
+                                                                <option value="">Select Period</option>
+                                                                <option value="170">2024 JAN CSEC</option>
+                                                                <option value="171">2024 CAPE</option>
+                                                                <option value="172">2024 CCSLC</option>
+                                                                <option value="169">2024 JUNE CSEC</option>
+                                                            </select>
+                                                        </td>
+                                                        <td style="width: 128px; height: 20px"></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center" style="height: 21px; width: 793px;">
+                                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                            <input type="button" name="ctl00$ContentPlaceHolder1$BtnLogin" value="Login" onclick="validate();" id="ctl00_ContentPlaceHolder1_BtnLogin" tabindex="6" class="FrmBtnBg" style="font-weight:normal;">&nbsp;
+                                            <input type="button" name="ctl00$ContentPlaceHolder1$BtnCancel" value="Close" id="ctl00_ContentPlaceHolder1_BtnCancel" tabindex="7" class="FrmBtnBg" style="font-weight:normal;" onclick="window.close();">
+                                        </td>
+                                    </tr>
+                                  <tr style="height:11px">
+         <td class="footer" align="center" style="height: 8px">Caribbean Examinations Council © 2019</td>
+     </tr>
+                                </tbody>
+                            </table>
+                        </center>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>

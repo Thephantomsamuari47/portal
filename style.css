@@ -1,0 +1,167 @@
+/* CSS Document */
+body
+{
+  margin:0;
+  font-family: Tahoma;
+  font-size:12pt;
+  color:#000000;
+}
+.Menubar
+{
+  background-color:#000000;
+  /*background-image:url(images/bluebar.gif);*/
+            color:#FFFFFF;
+ }
+
+.dynamicMenuStyle 
+{
+  background:#6699CC;
+  border-color:#000948;
+  border-style:solid;
+  border-width:1px;
+}
+.staticHoverStyle
+{
+	font-family: Tahoma;
+	background-color:#FF9900;
+	color:#FFFFFF;
+	font-size:1em;
+}
+Masthead
+ {
+	 background-position: center top;
+	background-image:url(images/Masthead.jpg);
+	height: 59px;
+	width:100%;
+	background-repeat: no-repeat;
+}
+
+.GridQuotation{
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #00064f;
+	font-family: Tahoma;
+	font-size: 12px;
+	background-color:#FFFFFF;
+	text-decoration: none;
+	text-align :left ;
+
+	
+}
+.GridQuotation1{
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #00064f;
+	font-family: Tahoma;
+	font-size: 12px;
+	background-color:  #6699cc;
+	text-decoration: none;
+	text-align :left ;
+}
+
+.FrmHdr{
+	font-family: Tahoma;
+	font-size: 20px;
+	line-height:30px;
+	font-weight: bold;
+	color: #00064f;
+	text-decoration: none;
+	padding-left: 20px;
+	background-color:#6699cc;
+	
+	vertical-align:middle;
+	border-bottom-width: 0px;
+	text-align: left;
+}
+
+.FrmBtnBg{
+	text-align: center;
+	font-family: Tahoma;
+	font-size :12px;
+	background-color:  #6699CC;
+    background-image :url(~/images/bluebar.gif);
+    border-style :outset ;
+     border-width :1px;
+     border-color:black;
+	
+}
+
+.FrmText{
+font-family: Tahoma;
+	font-size: 12px;
+	color:Black;
+	background-color:White ;
+	border: 1px;
+	text-align: left;
+	width: 100%;
+}
+
+
+.frmdrop{
+	font-family: Tahoma;
+	font-size: 12px;
+	color:Black;
+	background-color:White ;
+	border: 1px;
+	text-align: left;
+	width: 100%;
+}
+.LblText
+{
+	text-align:left;
+	font-family:Tahoma;
+	font-weight :bold ;
+	font-size: 12px;
+}
+.footer
+{
+	text-align:center ;
+	font-family:Tahoma;
+	font-size: 11px;
+}
+.LblcText
+{
+	text-align:left;
+	font-family:Tahoma;
+ font-size : 12px;
+}
+
+.LblTextca
+{
+	text-align:right ;
+ font-family :Tahoma;
+	font-weight :bold ;
+	font-size: 12px;
+}
+.visualarts
+{
+	text-align:left;
+	font-family:Tahoma;
+	font-weight :bold ;
+	font-size: 12px;
+	background-color:red ;
+	color:Black;
+	
+}
+
+.copyright
+{
+	text-align:left;
+	font-family:Tahoma;
+	font-weight :bold ;
+	font-size: 11px;
+	color:Black;
+	
+}
